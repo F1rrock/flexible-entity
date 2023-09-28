@@ -1,0 +1,1 @@
+typedef Property = ({Type type, dynamic value});
