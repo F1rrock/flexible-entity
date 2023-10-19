@@ -8,7 +8,7 @@ import 'package:flexible_entity/src/types/property.dart';
 import 'package:meta/meta.dart';
 
 @immutable
-class CompositeEntity implements Entity {
+final class CompositeEntity implements Entity {
   final Media<Metadata> _base;
   final Property _property;
 

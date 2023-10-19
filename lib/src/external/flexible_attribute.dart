@@ -8,7 +8,7 @@ import 'package:flexible_entity/src/types/metadata.dart';
 import 'package:meta/meta.dart';
 
 @immutable
-class FlexibleAttribute implements Attribute {
+final class FlexibleAttribute implements Attribute {
   final Type _type;
   final dynamic _value;
 

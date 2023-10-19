@@ -7,7 +7,7 @@ import 'package:flexible_entity/src/types/property.dart';
 import 'package:meta/meta.dart';
 
 @immutable
-class EntityBase implements Entity {
+final class EntityBase implements Entity {
   const EntityBase();
 
   @override
